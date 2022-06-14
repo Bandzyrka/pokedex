@@ -6,10 +6,11 @@ import { Search } from './components/search/search.component'
 import { getData } from './utils/data.utils'
 import './App.css'
 
-type Pokemon = {
+export type Pokemon = {
   id: string;
   name: string;
   sprite: string;
+  url: string;
 }
 type Response = {
   count: number;
